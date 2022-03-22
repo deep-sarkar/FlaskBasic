@@ -6,7 +6,7 @@ from .models import Users
 from .validators import validate_registration_data
 
 
-class Register_API(Resource):
+class RegisterAPI(Resource):
     def post(self):
         req_data = request.data
         body = json.loads(req_data)

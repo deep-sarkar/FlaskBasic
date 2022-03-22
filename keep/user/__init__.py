@@ -1,5 +1,5 @@
-from .apis import Register_API
+from .apis import RegisterAPI
 
 api_routes = [
-    ('/api/register', Register_API),
+    ('/api/register', RegisterAPI),
 ]
